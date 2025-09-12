@@ -1,6 +1,6 @@
 {
   "name": "persistent-loading-bar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A loading bar for node.js that stay's at the bottom of the screen.",
   "keywords": [
     "cli",
@@ -9,7 +9,16 @@
     "progress",
     "install",
     "installation",
-    "bar"
+    "bar",
+    "terminal",
+    "term",
+    "console",
+    "ansi",
+    "ascii",
+    "unicode",
+    "busy",
+    "wait",
+    "idle"
   ],
   "homepage": "https://github.com/IsaacFG2/persistent-loading-bar#readme",
   "bugs": {
