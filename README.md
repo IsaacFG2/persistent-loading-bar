@@ -1,5 +1,10 @@
 # Persistent Loading Bar
 > A clean and minimal loading bar for node.js that stay's at the bottom of the screen, and that has NO dependencie's.
+<p align="center">
+<br>
+<image source="example-screenshot.jpg">
+</br>
+</p>
 # Example: 
 ```javascript
 import loadingBar from "persistent-loading-bar";
