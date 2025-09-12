@@ -41,11 +41,3 @@ process.stdout.write("\x1b8");
 process.stdout.write("\x1b[?25h");
 }
 export default {setProgress, eraseBar}
-for (let i = 0; i < 100; i++) {
-console.log("blah");
-if (i < 99) {
-setTimeout(setProgress, i * 100, i / 100);
-} else {
-setTimeout(eraseBar, i * 100);
-}
-}
