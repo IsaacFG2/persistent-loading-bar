@@ -40,4 +40,4 @@ process.stdout.write("\x1b[0K");
 process.stdout.write("\x1b8");
 process.stdout.write("\x1b[?25h");
 }
-export default {setProgress, eraseBar}
+export default { setProgress, eraseBar };
