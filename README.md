@@ -22,3 +22,8 @@ setTimeout(loadingBar.eraseBar, (i + 1) * 10);
 }
 }
 ```
+
+# Installation
+```bash
+npm install persistent-loading-bar
+```
