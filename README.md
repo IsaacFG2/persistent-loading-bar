@@ -1,5 +1,6 @@
-# persistent-loading-bar
-A loading bar for node.js that stay's at the bottom of the screen.
+# Persistent Loading Bar
+> A clean and minimal loading bar for node.js that stay's at the bottom of the screen, and that has NO dependencie's.
+# Example: 
 ```javascript
 import loadingBar from "persistent-loading-bar";
 for (let i = 0; i <= 1000; i++) {
