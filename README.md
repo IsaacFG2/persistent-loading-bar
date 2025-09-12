@@ -5,6 +5,7 @@
 <img src="example-screenshot.jpg">
 </br>
 </p>
+
 # Example: 
 ```javascript
 import loadingBar from "persistent-loading-bar";
