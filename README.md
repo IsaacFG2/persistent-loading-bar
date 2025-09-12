@@ -6,7 +6,7 @@
 </br>
 </p>
 
-# Example: 
+# Example
 ```javascript
 import loadingBar from "persistent-loading-bar";
 for (let i = 0; i <= 1000; i++) {
