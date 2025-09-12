@@ -7,9 +7,9 @@ console.log("blah");
 if (i < 99) {
 function example(prog) {
 loadingBar.setProgress(prog);
-console.log("Example 1/" + prog.toString);
+console.log("Example " + (prog * 100).toString() + "/100");
 }
-setTimeout(loadingBar.setProgress, i * 100, i / 100);
+setTimeout(example, i * 100, i / 100);
 } else {
 setTimeout(loadingBar.eraseBar, i * 100);
 }
