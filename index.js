@@ -40,4 +40,8 @@ process.stdout.write("\x1b[0K");
 process.stdout.write("\x1b8");
 process.stdout.write("\x1b[?25h");
 }
+process.on("SIGINT", () => {
+eraseBar();
+process.exit(0);
+})
 export default { setProgress, eraseBar };
